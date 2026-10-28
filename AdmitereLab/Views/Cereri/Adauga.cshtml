@@ -15,6 +15,26 @@
     </div>
 
     @* Sarcina 1: E-mail, Telefonul, Anul absolvirii, Motivația — cu helpere HTML *@
+    <div class="mb-3">
+        @Html.Label("Email", null, new { @class = "form-label" })
+        @Html.TextBox("Email", null, new { @class = "form-control" })
+        @Html.ValidationMessage("Email", null, new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        @Html.Label("Telefon", null, new { @class = "form-label" })
+        @Html.TextBox("Telefon", null, new { @class = "form-control" })
+        @Html.ValidationMessage("Telefon", null, new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        @Html.Label("Anul Absolvire", null, new { @class = "form-label" })
+        @Html.TextBox("Anul Absolvire", null, new { @class = "form-control" })
+        @Html.ValidationMessage("Anul Absolvire", null, new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        @Html.Label("Motivatie", null, new { @class = "form-label" })
+        @Html.TextArea("Motivatie", null, new { @class = "form-control" })
+        @Html.ValidationMessage("Motivatie", null, new { @class = "text-danger" })
+    </div>
 
     @* Sarcina 2: Specialitatea — listă derulantă *@
 

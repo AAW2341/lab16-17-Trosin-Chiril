@@ -1,6 +1,7 @@
 @model Cerere
 
 <tr>
+    <td>@Html.LinkEmail(Model.Email)</td>
     <td>@Html.Display("NumeComplet")</td>
     <td>@Model.Email</td>
     <td>@Html.Display("Specialitate")</td>

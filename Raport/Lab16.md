@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Numele și prenumele** | *(scrie aici)* |
+| **Numele și prenumele** | *Trosin Chiril* |
 | **Grupa** | AAW2341 |
 | **Data** | 28.10.2026 |
 | **Ramura** | `lab-16` |

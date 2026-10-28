@@ -12,6 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Raport", "Raport", "{93F9A8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "capturi", "capturi", "{F629D943-DE69-4BA5-A6A3-E7CFCEE94024}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helper", "Helper", "{8AB34B7D-C7A6-4741-8767-E53D220C7BDF}"
+	ProjectSection(SolutionItems) = preProject
+		AdmitereHelpers.cs = AdmitereHelpers.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

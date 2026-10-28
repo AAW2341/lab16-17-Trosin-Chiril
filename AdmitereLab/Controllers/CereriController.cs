@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using AdmitereLab.Models;
 
 namespace AdmitereLab.Controllers
@@ -44,6 +45,8 @@ namespace AdmitereLab.Controllers
         // Listele de opțiuni pentru formular (Sarcinile 2 și 3).
         private void PregatesteListele()
         {
+            ViewBag.Specialitati = new SelectList(Optiuni.Specialitati);
+            ViewBag.FormeInvatamant = Optiuni.FormeInvatamant;
         }
     }
 }
